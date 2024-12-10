@@ -2,7 +2,6 @@
 <footer class="footer">
     <div class="container">
         <div class="row">
-            <!-- About Us Section -->
             <div class="col-md-3">
                 <h4 class="footer-title">About Us</h4>
                 <p class="footer-description">
@@ -10,7 +9,6 @@
                 </p>
             </div>
 
-            <!-- Quick Links Section -->
             <div class="col-md-3">
                 <h4 class="footer-title">Quick Links</h4>
                 <ul class="footer-links">
@@ -21,7 +19,6 @@
                 </ul>
             </div>
 
-            <!-- Contact Information Section -->
             <div class="col-md-3">
                 <h4 class="footer-title">Contact Us</h4>
                 <p class="footer-contact">Email: info@education.com</p>
@@ -29,14 +26,13 @@
                 <p class="footer-contact">Address: 123 Education Street, City, Country</p>
             </div>
 
-            <!-- Social Media Section -->
             <div class="col-md-3">
                 <h4 class="footer-title">Follow Us</h4>
                 <div class="footer-social">
-                    <a href="#" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="social-icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.facebook.com" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.twitter.com" class="social-icon twitter"><i class="fab fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com" class="social-icon linkedin"><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
         </div>

@@ -1,13 +1,10 @@
 @extends('layout.master')
 @section('main')
-    <!-- Contact Us Section -->
 <section class="contact-us">
-    <!-- Location iframe -->
     <div class="location">
         <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d7743.13296163283!2d100.6318217!3d13.9843907!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sth!2sth!4v1733825673984!5m2!1sth!2sth" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
-    <!-- Social Media Contacts -->
     <div class="social-media">
         <h3>Contact Us on Social Media</h3>
         <div class="social-icons">
@@ -34,7 +31,6 @@
         </div>
     </div>
 
-    <!-- Contact Form -->
     <div class="contact-form">
         <h3>Get in Touch</h3>
         <form action="submit-form.php" method="POST">

@@ -1,8 +1,6 @@
 @extends('layout.master')
 @section('main')
-    <!-- About Us Page -->
 
-<!-- Section 1: Introduction -->
 <section class="about-intro">
     <div class="container">
         <h2>About Us</h2>
@@ -12,7 +10,6 @@
     </div>
 </section>
 
-<!-- Section 2: Our Mission -->
 <section class="our-mission">
     <div class="container">
         <h3>Our Mission</h3>
@@ -29,7 +26,6 @@
     </div>
 </section>
 
-<!-- Section 3: Our Team -->
 <section class="our-team">
     <div class="container">
         <h3>Meet Our Team</h3>
@@ -53,7 +49,6 @@
     </div>
 </section>
 
-<!-- Section 4: Our Values -->
 <section class="our-values">
     <div class="container">
         <h3>Our Core Values</h3>

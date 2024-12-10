@@ -189,10 +189,10 @@
                 <div class="col-md-3">
                     <h4 class="footer-title">Follow Us</h4>
                     <div class="footer-social">
-                        <a href="#" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.facebook.com" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com" class="social-icon twitter"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com" class="social-icon linkedin"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
             </div>
