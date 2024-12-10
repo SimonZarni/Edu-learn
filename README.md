@@ -65,3 +65,27 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 "# Edu-learn" 
+
+#Clone the repository 
+git clone https://github.com/SimonZarni/Edu-learn.git
+
+#Navigate to project folder
+cd edu-learn
+
+#Install dependencies
+composer install 
+
+#Setup environment file
+cp .env.example .env
+
+#Generate application key
+php artisan key:generate
+
+#Migrate database
+php artisan migrate
+
+#Link storage directory for file upload
+php artisan storage:link
+
+Run the project
+php artisan serve
