@@ -15,7 +15,7 @@
 
 <a href="{{ route('course.create') }}" class="btn btn-success">Add New Course</a>
 
-<table class="table table-bordered">
+<table class="table table-bordered mt-2">
     <thead>
         <tr>
             <th>No</th>

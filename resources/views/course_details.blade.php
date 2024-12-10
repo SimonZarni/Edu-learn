@@ -1,29 +1,28 @@
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+@extends('layout.master')
+@section('main')
+<h2 class="text-center mb-5">Course Details</h2>
 
-<ul>
-    <li><a href="{{ route('home') }}" class="btn btn-success">Home</a></li>
-    <li><a href="{{ route('courses.index') }}" class="btn btn-success mt-1">Courses</a></li>
-</ul>
-
-<h2>Course Details</h2>
-
-<div class="row">
-    <div class="col-md-4 mb-4">
-        <div class="card">
-            <img src="{{ asset('storage/' . $course->image) }}" class="card-img-top" alt="Course Image"
-                width="100" />
-            <div class="card-body">
-                <h5 class="card-title">{{ $course->name }}</h5>
-                <p class="card-text">{{ $course->description }}</p>
+<div class="course-details-container1 d-flex justify-content-center align-items-center">
+    <div class="course-card1 d-flex flex-row align-items-center">
+        <div class="course-image1">
+            <img src="{{ asset('storage/' . $course->image) }}" alt="Course Image" class="img-fluid rounded" />
+        </div>
+        <div class="course-info1 ms-4">
+            <h3 class="course-title1">{{ $course->name }}</h3>
+            <p class="course-description1">{{ $course->description }}</p>
+            <div class="course-meta1">
                 <p><strong>Start Date:</strong> {{ $course->start_date }}</p>
                 <p><strong>Duration:</strong> {{ $course->duration }}</p>
-                <a href="{{ route('applications.create', $course->id) }}" class="btn btn-primary">Apply for Course</a>
-                @if (session('error'))
-                    <div class="alert alert-danger">
-                        {{ session('error') }}
-                    </div>
-                @endif
             </div>
+            <a href="{{ route('applications.create', $course->id) }}" class="btn btn-primary">Apply for Course</a>
+            @if (session('error'))
+                <div class="alert alert-danger mt-3">
+                    {{ session('error') }}
+                </div>
+            @endif
         </div>
     </div>
 </div>
+@endsection
+
+

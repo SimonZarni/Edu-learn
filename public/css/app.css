@@ -618,6 +618,233 @@ html {
     background-color: #3498db;
 }
 
+.course-details-container1 {
+    background: linear-gradient(to right, #FFB6C1, #FFD700);
+    padding: 80px 0;
+}
+
+.course-card1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 90%;
+    max-width: 1200px;
+    transition: transform 0.3s ease;
+}
+
+.course-card1:hover {
+    transform: translateY(-10px);
+}
+
+.course-image1 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-width: 450px;
+    border-radius: 10px;
+}
+
+.course-info1 {
+    padding: 20px;
+    color: #333;
+    width: 100%;
+}
+
+.course-title1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.course-description1 {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.course-meta1 p {
+    font-size: 1rem;
+    color: #777;
+    margin: 5px 0;
+}
+
+.alert {
+    background-color: #F8D7DA;
+    color: #721C24;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Container to center the login form */
+.login-container {
+    min-height: 100vh;
+    background: linear-gradient(to right, #bcb9b8, #5c5959);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Style for the login card */
+.login-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 50px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for form labels and inputs */
+.form-label {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-control {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    transition: border 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #ff7f50;
+    outline: none;
+}
+
+/* Submit button style */
+.btn-submit {
+    background-color: #5f5a58;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #c1bdbc;
+    transform: translateY(-3px);
+}
+
+/* Error message style */
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+/* Register link styling */
+.register-link {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.register-link a {
+    color: #5f5a58;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Register Container Styling */
+.register-container {
+    min-height: 100vh;
+    background: linear-gradient(to right, #bcb9b8, #5c5959);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Style for the register card */
+.register-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.register-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 50px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for form labels and inputs */
+.form-label {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-control {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    transition: border 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #ff7f50;
+    outline: none;
+}
+
+/* Submit button style */
+.btn-submit {
+    background-color: #5f5a58;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #c1bdbc;
+    transform: translateY(-3px);
+}
+
+/* Error message style */
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+/* Login link styling */
+.login-link {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.login-link a {
+    color: #5f5a58;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
 
 
 
