@@ -21,6 +21,9 @@ php artisan migrate
 # Link storage directory for file upload
 php artisan storage:link
 
+# Uses smtp for sending gmail set up in env
+mail_port 587 and encryption tls
+
 # Run the project
 php artisan serve
 
